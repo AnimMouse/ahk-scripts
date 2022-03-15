@@ -4,20 +4,18 @@ SendMode Input  ; Recommended for new scripts due to its superior speed and reli
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance Force
 
-#MaxThreadsPerHotkey 2
 z::
-Toggle := !Toggle
-loop
-{
-    If not Toggle
-        break
-    MouseClick, left, 1873, 171
-    Sleep, 1000
-    MouseClick, left, 1732, 333
-    Sleep, 300
-    MouseClick, left, 1516, 592
-    Sleep, 400
-}
+MouseClick, left, 1873, 171
 return
 
-; MouseClick, left, 1514, 560
+x::
+MouseClick, left, 1732, 333
+return
+
+c::
+MouseClick, left, 1717, 361
+return
+
+v::
+MouseClick, left, 1506, 590
+return
