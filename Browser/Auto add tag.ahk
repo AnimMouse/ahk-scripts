@@ -8,7 +8,7 @@ F3::
 MouseClick, left,  593,  838
 Sleep, 1000
 MouseClick, left,  592,  728
-Send, philippines
+Send, Philippines
 MouseClick, left,  595,  913
 return
 
@@ -16,7 +16,7 @@ F4::
 MouseClick, left,  593,  838
 Sleep, 1000
 MouseClick, left,  592,  728
-Send, philippines, caloocan
+Send, Philippines, Caloocan
 MouseClick, left,  595,  913
 return
 
@@ -24,7 +24,7 @@ F5::
 MouseClick, left,  593,  838
 Sleep, 1000
 MouseClick, left,  592,  728
-Send, philippines, quezon_city
+Send, Philippines, Quezon_City
 MouseClick, left,  595,  913
 return
 
@@ -32,6 +32,6 @@ F6::
 MouseClick, left,  593,  838
 Sleep, 1000
 MouseClick, left,  592,  728
-Send, philippines, caloocan, quezon_city
+Send, Philippines, Caloocan, Quezon_City
 MouseClick, left,  595,  913
 return
