@@ -1,16 +1,16 @@
-﻿#NoEnv  ; Recommended for performance and compatibility with future AutoHotkey releases.
-; #Warn  ; Enable warnings to assist with detecting common errors.
-SendMode Input  ; Recommended for new scripts due to its superior speed and reliability.
-SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
-#SingleInstance Force
+﻿#Requires AutoHotkey v2.0
+#SingleInstance
 
 z::
-MouseGetPos, StartX, StartY
-MouseClick, left,  435,  125
-MouseMove, StartX, StartY
-return
+{
+  MouseGetPos(&StartX, &StartY)
+  MouseClick("left", 426, 115)
+  MouseMove(StartX, StartY)
+  return
+}
 
 x::
-Send {PgDn}
-Send {PgDn}
-return
+{
+  Send("{PgDn}")
+  return
+}
