@@ -10,7 +10,7 @@ loop
 {
     If not Toggle
         break
-	Send, https://www.facebook.com/osapagelive/photos/a.113310360374765/225928802446253
+	Send, <Insert comment here>
 	Sleep, 50
 	Send, {Enter}
 	Sleep, 1000

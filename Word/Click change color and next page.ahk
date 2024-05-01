@@ -4,7 +4,7 @@
 z::
 {
   MouseGetPos(&StartX, &StartY)
-  MouseClick("left", 426, 115)
+  MouseClick("left", 460, 134)
   MouseMove(StartX, StartY)
   return
 }
